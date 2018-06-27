@@ -1,0 +1,9 @@
+- name: asb_state lookup single key during unbind key
+  set_fact:
+    some_test_var: "{{lookup('asb_state', 'anotherkey') }}"
+
+- name: asb_state lookup another single key during unbind
+  set_fact:
+    some_other_var: "{{lookup('asb_state', 'someotherkey') }}"    
+
+- debug: msg="the value of someotherkey is {{some_other_var}}"
