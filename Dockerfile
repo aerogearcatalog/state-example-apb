@@ -1,4 +1,4 @@
-FROM ansibleplaybookbundle/apb-base
+FROM ansibleplaybookbundle/apb-base:nightly
 
 LABEL "com.redhat.apb.spec"=\
 "dmVyc2lvbjogMS4wCm5hbWU6IHN0YXRlLWV4YW1wbGUtYXBiCmRlc2NyaXB0aW9uOiBUaGlzIGlz\

@@ -1,6 +1,6 @@
 DOCKERHOST = docker.io
-DOCKERORG = state-example-apb
-IMAGENAME = state-example
+DOCKERORG = maleck13
+IMAGENAME = state-example-apb
 TAG = latest
 USER=$(shell id -u)
 PWD=$(shell pwd)

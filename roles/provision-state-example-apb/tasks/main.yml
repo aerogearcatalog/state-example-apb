@@ -1,11 +1,12 @@
-
-- name: set state during provision
-  asb_set_state:
-    fields:
-      somekey : "someval"
-      anotherkey: "somevalue"
-
-- asb_encode_binding:
-    fields:
-      SERVICE_NAME: "test"
-      SERVICE_URI: "test"
+--- 
+- name: "set state"
+  asb_set_state: 
+    fields: 
+      anotherkey: somevalue
+      somekey: someval
+  
+- 
+  asb_encode_binding: 
+    fields: 
+      SERVICE_NAME: test
+      SERVICE_URI: test

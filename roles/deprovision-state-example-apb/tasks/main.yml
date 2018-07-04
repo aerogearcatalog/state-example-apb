@@ -1,6 +1,7 @@
----
-- name: Get all state
-  set_fact:
+--- 
+- 
+  name: "Get all state"
+  set_fact: 
     all_state: "{{lookup('asb_state', get_all=True) }}"
-
-- debug: msg="state is {{all_state}}"
+- 
+  debug: "msg=\"state is {{all_state}}\""
